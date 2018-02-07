@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -IF:\Proj\EmbProj\copter\prog -IF:\Proj\EmbProj\copter\prog\cmsis -IF:\Proj\EmbProj\copter -IF:\Proj\EmbProj\copter\prog\cmsis_boot">
+      <target file="system_stm32f4xx.o" lastModified="1407bf2cafe">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13c9b0038bb"/>
+      </target>
+      <target file="printf.o" lastModified="1407bf2ca7c">
+         <source file="..\..\..\stdio\printf.c" lastModified="13c0c59fbd3"/>
+      </target>
+      <target file="main.o" lastModified="1407c09e0ab">
+         <source file="..\..\..\main.c" lastModified="1407c09d719"/>
+      </target>
+      <target file="syscalls.o" lastModified="1407bf2cbf8">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="13bfd3a0750"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1407bf2c46e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13cb52675c0"/>
+      </target>
+   </processor>
+</history>

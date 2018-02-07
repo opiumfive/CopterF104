@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=f104.map -O0 --gc-sections -lgcc -lc -lm -LC:\CooCox\CoIDE\configuration\ProgramData\f104 -TC:\CooCox\CoIDE\configuration\ProgramData\f104/arm-gcc-link.ld -g -LC:\Program Files\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m -lm">
+      <target file="f104.elf" lastModified="1407c09ebc4">
+         <source file="C:\Program Files\GNU Tools ARM Embedded\4.7 2012q4\arm-none-eabi\lib\armv7e-m\libm.a" lastModified="13b769b5a98"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1407bf2c46e"/>
+         <source file="..\obj\main.o" lastModified="1407c09e0ab"/>
+         <source file="..\obj\printf.o" lastModified="1407bf2ca7c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1407bf2cafe"/>
+         <source file="..\obj\syscalls.o" lastModified="1407bf2cbf8"/>
+      </target>
+   </processor>
+</history>
